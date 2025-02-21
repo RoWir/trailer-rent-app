@@ -1,0 +1,63 @@
+.trailerViewImageBox {
+    height: 100%;
+    width: 60%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.trailerViewContentWrap {
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    box-sizing: border-box;
+    height: 100%;
+    overflow-y: scroll;
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.trailerViewWrap {
+    display: flex;
+    height: 100%;
+}
+
+.trailerModelText {
+    margin-top: -20px;
+    color: #aaaaaa;
+}
+
+.trailerExtraText {
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.trailerTypeText {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.trailerPriceText {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.trailerNameWrap {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.trailerUntilText {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.trailerUserInfoWrap {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
